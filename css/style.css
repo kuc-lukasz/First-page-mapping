@@ -1,0 +1,81 @@
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+ul {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+
+}
+
+ul li { 
+
+text-transform: uppercase;
+list-style: none;
+font-weight: bold;
+font-size: 24px;
+
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 30px;
+
+}
+.logo{
+max-width: 100px;
+margin-left: 200px;
+
+}
+
+.links:hover{
+    color:darkgoldenrod
+}
+
+.sm-icons{
+    max-width: 30px;
+}
+img.front-logo {
+    max-width: 1280px;
+   display: flex;
+   justify-content: center;
+    margin: auto;
+
+}
+
+p{
+    color: #640000;
+}
+
+h1, h2, h3, h4{
+    color: #640000;
+}
+
+.head-imp-posts {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.content-imp-posts {
+    border: 2px solid #640000;
+    
+    
+    }
+
+.content-imp-posts li{
+border: 2px solid #640000;
+borde
+margin: 30px;
+}
+
+#main-content {
+    display: flex;
+   
+}
+.news {
+    width: 70%;
+
+   
+}
